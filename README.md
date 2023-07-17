@@ -1,26 +1,20 @@
-### WAN
-(Wide Area Network): WAN stands for Wide Area Network. It is a type of network that connects computers and network devices in different geographic locations. The Internet is the largest example of a WAN.
+### WAN (Geniş Alan Ağı):
+WAN, "Wide Area Network" ifadesinin kısaltmasıdır ve genellikle büyük coğrafi alanlarda bulunan bilgisayarlar ve ağ cihazları arasında iletişimi sağlayan bir ağ türüdür. İnternet, dünya çapındaki en büyük WAN örneğidir. WAN'lar, şehirler, ülkeler veya hatta kıtalar arasındaki uzak noktalar arasında veri, ses ve video iletişimini sağlar. Genellikle çeşitli telekomünikasyon teknolojileri, özel hatlar veya uydu bağlantıları kullanılarak oluşturulur.
 
+### LAN (Yerel Alan Ağı):
+LAN, "Local Area Network" ifadesinin kısaltmasıdır ve sınırlı bir coğrafi alan içinde (örneğin bir binada veya bir kampüste) yer alan bilgisayarlar ve cihazlar arasında iletişimi sağlayan bir ağdır. LAN, yüksek hızlı veri transferi, dosya paylaşımı ve ortak kaynak kullanımı için kullanılır. Genellikle bir Ethernet kablosu, Wi-Fi veya başka bir yerel iletişim teknolojisi ile bağlanır.
 
-### LAN 
-(Local Area Network): LAN stands for Local Area Network. It is a network that allows data communication between computers and devices within a specific physical area, typically within a building or a group of buildings.
+### Switch (Anahtarlayıcı):
+Switch, ağdaki bilgisayarlar ve cihazlar arasında veri iletişimini sağlayan bir ağ cihazıdır. Aynı LAN'daki birden fazla cihazı birbirine bağlar ve veri paketlerini doğrudan hedef cihaza ileterek verimli bir iletişim sağlar. Switch, veri hedefini belirleyen ve paketleri ilgili hedef cihaza yönlendiren özel bir ağ cihazıdır.
 
+### Router (Yönlendirici):
+Router, ağ trafiğini farklı ağlar arasında yönlendiren ve ileten bir ağ cihazıdır. LAN ile WAN arasındaki bağlantıyı sağlamak gibi farklı ağların birbiriyle iletişim kurmasını mümkün kılar. Router, alıcı ve gönderici arasında veri paketlerini en uygun yoldan ileterek ağ verimliliğini artırır.
 
-### SWITCH
-A switch is a network device that manages data transmission between devices within a network. It establishes direct connections between devices and forwards incoming data to the specific destination device.
+### Gateway (Ağ Geçidi):
+Gateway, farklı ağ protokollerini birbirine bağlayan ve farklı ağ tipleri arasında iletişimi sağlayan bir ağ cihazıdır. Genellikle LAN ve WAN arasında veya farklı ağ teknolojileri arasında veri dönüşümü yaparak uyumluluğu sağlar. İnternet erişiminde de genellikle bir ağ geçidi kullanılır.
 
+### DHCP (Dynamic Host Configuration Protocol):
+DHCP, IP (Internet Protocol) adresi, alt ağ maskesi, varsayılan ağ geçidi ve diğer ağ yapılandırma bilgilerini otomatik olarak bir ağ cihazına atayan bir ağ yönetim protokolüdür. Bu, yeni bir cihazın ağa bağlandığında otomatik olarak yapılandırılmasını sağlar ve ağ yöneticilerinin her cihazı manuel olarak yapılandırmak zorunda kalmadan ağda kolayca yeni cihazlar eklemesine olanak tanır.
 
-### ROUTER
-A router is a network device that enables data communication between different networks. It directs incoming data packets to the correct destination network, allowing communication between various networks.
-
-
-### GATEWAY
-A gateway is a device that facilitates the transition of data between different types of networks or converts data formats. For example, when devices in a LAN want to access the internet, a gateway directs and enables their passage to the internet.
-
-
-### DHCP (Dynamic Host Configuration Protocol)
-DHCP is a network protocol that automatically distributes IP addresses, subnet masks, default gateways, and other network configurations to devices within a network. This allows for easy configuration of devices in the network.
-
-
-### FTP (File Transfer Protocol)
-FTP is a network protocol that enables the transfer of files from one computer to another. It allows files to be downloaded from or uploaded to servers or other computers.
+### FTP (File Transfer Protocol):
+FTP, dosyaların bir bilgisayardan başka bir bilgisayara aktarılması için kullanılan bir ağ protokolüdür. FTP, dosya paylaşımı, güncelleme ve indirme işlemlerini yönetmek için yaygın olarak kullanılır. Genellikle web siteleri, dosyalarını sunucuya yüklemek veya kullanıcılara dosya indirme imkanı vermek için FTP'yi kullanır.
