@@ -1,8 +1,8 @@
-WAN
+### WAN
 (Wide Area Network): WAN stands for Wide Area Network. It is a type of network that connects computers and network devices in different geographic locations. The Internet is the largest example of a WAN.
 
 
-LAN 
+### LAN 
 (Local Area Network): LAN stands for Local Area Network. It is a network that allows data communication between computers and devices within a specific physical area, typically within a building or a group of buildings.
 
 
