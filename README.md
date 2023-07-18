@@ -1,3 +1,7 @@
+![image](https://github.com/hasankilic0663/DHCP-Server-with-PFSense/assets/101570706/4db096f9-2b20-49b3-b9dc-b21ba827358c)
+
+
+
 ### WAN (Geniş Alan Ağı):
 WAN, "Wide Area Network" ifadesinin kısaltmasıdır ve genellikle büyük coğrafi alanlarda bulunan bilgisayarlar ve ağ cihazları arasında iletişimi sağlayan bir ağ türüdür. İnternet, dünya çapındaki en büyük WAN örneğidir. WAN'lar, şehirler, ülkeler veya hatta kıtalar arasındaki uzak noktalar arasında veri, ses ve video iletişimini sağlar. Genellikle çeşitli telekomünikasyon teknolojileri, özel hatlar veya uydu bağlantıları kullanılarak oluşturulur.
 
