@@ -1,5 +1,5 @@
-![image](https://github.com/hasankilic0663/DHCP-Server-with-PFSense/assets/101570706/4db096f9-2b20-49b3-b9dc-b21ba827358c)
 
+![image](https://github.com/hasankilic0663/DHCP-Server-with-PFSense/assets/101570706/449662c4-cd43-4a38-9be3-b974733d2f71)
 
 
 ### WAN (Geniş Alan Ağı):
