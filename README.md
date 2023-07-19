@@ -20,10 +20,12 @@ Makinelerle iletişime geçmesi içinde Ağ kısmına adaptörler atıyoruz. Bun
 ![image](https://github.com/hasankilic0663/DHCP-Server-with-PFSense/assets/101570706/8360bc55-ac34-4ebe-8bef-a17ad9282773)
 Ekledikten sonra PfSensin ilk kendi ağını NAT seçiyoruz. Diğre bağdaştırıcılarınıda sırasıyla adaptör 1-2-3 şeklinde ekliyoruz.
 ![image](https://github.com/hasankilic0663/DHCP-Server-with-PFSense/assets/101570706/5c92abeb-8d77-44cf-ba7e-7057d1ccd637)
-Sonrasında da Makinelerimize tek tek girip Her birinde yine kendine özel Lan Segmentasyonunu atıyoruz. (10.10.10.3 20.20.20.3 30.30.30.3)
+Sonrasında da Makinelerimize tek tek girip Her birinde yine kendine özel Lan Segmentasyonunu atıyoruz. (10.10.10.3 20.20.20.3 30.30.30.3) ve gatewayleri ise pfsensin herbirinin kendi lan segmentasyonu olan ipler yazıyoruz .
 ![image](https://github.com/hasankilic0663/DHCP-Server-with-PFSense/assets/101570706/b3c5ced6-ce98-44c7-a439-b04c05121b50)
 
-Sonrasındada normal sanal makineden girip PfSense arayüzüne bağlanıyoruz.
+Sonrasındada normal sanal makineden girip PfSense arayüzüne bağlanıyoruz. Bağlandıktan sonrada PFSense arayüzünden policy kurucaz her bir lan segmentasyonuna :
+![image](https://github.com/hasankilic0663/DHCP-Server-with-PFSense/assets/101570706/9dd0588d-814c-45c9-8362-052dd626c3f0)
+ve bu durumda her bir makinenin Lan Segmentasyonu farklı olduğu halde Fırewall uzerınden bağlanarak birbirlerine ping atma işlemini sağlaık . 
 
 ### WAN (Geniş Alan Ağı):
 WAN, "Wide Area Network" ifadesinin kısaltmasıdır ve genellikle büyük coğrafi alanlarda bulunan bilgisayarlar ve ağ cihazları arasında iletişimi sağlayan bir ağ türüdür. İnternet, dünya çapındaki en büyük WAN örneğidir. WAN'lar, şehirler, ülkeler veya hatta kıtalar arasındaki uzak noktalar arasında veri, ses ve video iletişimini sağlar. Genellikle çeşitli telekomünikasyon teknolojileri, özel hatlar veya uydu bağlantıları kullanılarak oluşturulur.
